@@ -26,9 +26,9 @@ export function AppHeader() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box>
       <AppBar position="static">
-        <Toolbar sx={{display: 'flex', gap: '18px'}}>
+        <Toolbar sx={{ display: "flex", gap: "18px" }}>
           <Link href={language === Language.RO ? "/ro" : "/en"}>
             {renderLanguage("home")}
           </Link>
